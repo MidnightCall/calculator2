@@ -17,7 +17,7 @@ int main()
     char Infix[MAX_EXP_LEN], Postfix[MAX_EXP_LEN];
     cout << "输入表达式" << endl;
     s_gets(Infix, MAX_EXP_LEN);
-    double sum;d
+    double sum;
 
     cal.InfixToPostfix(Infix, Postfix);
     sum = cal.Calculation(Postfix);
