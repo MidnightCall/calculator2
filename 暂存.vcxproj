@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calculator.h" />
+    <ClInclude Include="Tools.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="calculator.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tools.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,15 +147,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\数据结构实验\科学计算器\科学计算器\calculator.cpp" />
-    <ClCompile Include="..\..\数据结构实验\科学计算器\科学计算器\main.cpp" />
-    <ClCompile Include="..\..\数据结构实验\科学计算器\科学计算器\Tools.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\数据结构实验\科学计算器\科学计算器\calculator.h" />
-    <ClInclude Include="..\..\数据结构实验\科学计算器\科学计算器\Tools.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
